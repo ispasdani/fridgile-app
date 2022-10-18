@@ -1,0 +1,32 @@
+.item{
+    height: 80px;
+    width: 340px; 
+    border-radius: 12px;
+    background-color: #DBEDDD;
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item-container{
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+input{
+    height: 40px;
+    width: auto;
+    border: none;
+    background: transparent;
+    font-family: 'General Sans';
+    font-size: 15px;
+    outline: none;
+    /* padding: 1em 1em; */
+    position: relative;
+  }
+  .item img{
+
+    margin-left:5px;
+    padding-right: 10px;
+  }
