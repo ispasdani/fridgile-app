@@ -1,19 +1,18 @@
 import PageTemplate from "./templates/PageTemplate";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ObjectDetector } from "./components/objectDetector/ObjectDetector";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <PageTemplate>
-          <Switch>
-            <Route path="/add">
-              <ObjectDetector />
-            </Route>
-          </Switch>
-        </PageTemplate>
-      </Router>
+      <PageTemplate>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/add" element={<ObjectDetector />} />
+          </Routes>
+        </BrowserRouter>
+        ,
+      </PageTemplate>
     </div>
   );
 }
