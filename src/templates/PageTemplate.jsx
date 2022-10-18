@@ -2,6 +2,7 @@ import { NavbarMobile } from "../components/navbarMobile/NavbarMobile";
 import { NavbarDesktop } from "../components/navbarDesktop/Navbar";
 import "./pageTemplate.css";
 
+
 const PageTemplate = (props) => {
   return (
     <div className="PageTemplate">
