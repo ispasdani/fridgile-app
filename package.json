@@ -6,7 +6,7 @@
   "homepage": "https://ispasdani.github.io/fridgile-app/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview"
   },
   "dependencies": {
