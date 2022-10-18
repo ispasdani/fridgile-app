@@ -5,14 +5,7 @@ import { ObjectDetector } from "./components/objectDetector/ObjectDetector";
 function App() {
   return (
     <div className="App">
-      <PageTemplate>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/add" element={<ObjectDetector />} />
-          </Routes>
-        </BrowserRouter>
-        ,
-      </PageTemplate>
+      <PageTemplate></PageTemplate>
     </div>
   );
 }
