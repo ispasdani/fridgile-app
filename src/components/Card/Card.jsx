@@ -3,7 +3,7 @@ import "./Card.css"
 
 export default function Card({ icon, title }) {
     return (
-    <div className="card-category">
+ <div className="card-category" >
 
 <div className="category-icon">
     <img src={icon} alt="category icon"></img>
@@ -12,7 +12,9 @@ export default function Card({ icon, title }) {
 <div className="category-title">
     <p>{title}</p>
 </div>
-    </div>
+</div>
+
+    
     );
 }
 

@@ -16,34 +16,49 @@ return (
         <p>My fridge</p>
     </div>
     <div className="grid-container">
-        <div className="add">
-    <Card
-    icon={Plus}
+<div id="add">
+
+    <Card 
+  icon={Plus}   
 
     />
-    </div>
-    <Card 
-    icon={Banana}
-    title='Fruits'
+
+</div>
+<div id="preset">
+<Card 
+    icon={Carrot}
+    title='Vegetables'
     />
+     </div>
+     <div id="preset">
+   
+   <Card 
+  icon={Banana}
+  title='Fruits'
+  />
+  </div>
+     <div id="preset">
     <Card 
     icon={Dairy}
     title='Dairy'
     />
+    </div>
+    <div id="preset">
     <Card 
     icon={Meat}
     title='Meat'
     />
+        </div>
+        <div id="preset">
     <Card 
     icon={Fish}
     title='Fish and seafood'
     />
-    <Card 
-    icon={Carrot}
-    title='Vegetables'
-    />
-   
+     </div>
+     
     </div>
+    
 </section>
+
 );
 }
