@@ -1,9 +1,17 @@
 import PageTemplate from "./templates/PageTemplate";
+import ShoppingList from "./pages/ShoppingList/ShoppingList.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ObjectDetector } from "./components/objectDetector/ObjectDetector";
+import Myfridge from "./pages/MyFridge/MyFridge";
 
 function App() {
   return (
     <div className="App">
-      <PageTemplate></PageTemplate>
+      <PageTemplate>
+<Myfridge>
+        
+        </Myfridge>
+      </PageTemplate>
     </div>
   );
 }

@@ -86,7 +86,7 @@
 
 @media only screen and (min-width: 570px) {
   .NavbarMobile {
-    display: none;
+    display: block;
   }
   .ClosedMobileNavbar {
     display: none;
