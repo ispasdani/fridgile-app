@@ -1,17 +1,21 @@
 import PageTemplate from "./templates/PageTemplate";
-import ShoppingList from "./pages/ShoppingList/ShoppingList.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ObjectDetector } from "./components/objectDetector/ObjectDetector";
-import Myfridge from "./pages/MyFridge/MyFridge";
+
 
 function App() {
   return (
     <div className="App">
-      <PageTemplate>
-<Myfridge>
-        
-        </Myfridge>
-      </PageTemplate>
+       <BrowserRouter>
+       <PageTemplate>
+        <Routes>
+          
+            <Route path="/fridgile-app/add" element={<ObjectDetector />}/>
+       
+          
+        </Routes>
+        </PageTemplate>
+      </BrowserRouter>
     </div>
   );
 }
