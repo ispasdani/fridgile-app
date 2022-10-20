@@ -1,0 +1,35 @@
+.addcard-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 170px;
+ height: 130px;
+ border: solid #DBEDDD 3px;
+ border-radius: 5%;
+ }
+ 
+.popup {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #DBEDDD;
+    border: 3px black solid;
+
+}
+
+.popup input {
+    background-color: #FAFAFA;
+    border-radius: 5%;
+}
+
+.close-btn {
+    float: right;
+    
+}
+.close-btn:hover {
+ cursor: pointer;
+}
+
+.addcard-category img:hover {
+    cursor: pointer;
+ }

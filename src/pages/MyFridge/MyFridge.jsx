@@ -7,6 +7,7 @@ import Meat from "../../assets/images/meat.svg";
 import Fish from "../../assets/images/fish.svg";
 import Plus from "../../assets/images/plus.svg";
 import "./MyFridge.css"
+import AddCard from "../../components/AddCard/AddCard.jsx";
 
 
 export default function Myfridge() {
@@ -16,45 +17,39 @@ return (
         <p>My fridge</p>
     </div>
     <div className="grid-container">
-<div id="add">
+<AddCard
+icon={Plus}
+/>
 
-    <Card 
-  icon={Plus}   
-
-    />
-
-</div>
-<div id="preset">
 <Card 
     icon={Carrot}
     title='Vegetables'
     />
-     </div>
-     <div id="preset">
+
+
    
    <Card 
   icon={Banana}
   title='Fruits'
   />
-  </div>
-     <div id="preset">
+
+
     <Card 
     icon={Dairy}
     title='Dairy'
     />
-    </div>
-    <div id="preset">
+
+
     <Card 
     icon={Meat}
     title='Meat'
     />
-        </div>
-        <div id="preset">
+       
     <Card 
     icon={Fish}
     title='Fish and seafood'
     />
-     </div>
+  
      
     </div>
     
